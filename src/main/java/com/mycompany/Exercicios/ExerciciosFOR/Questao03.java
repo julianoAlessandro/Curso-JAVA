@@ -12,7 +12,7 @@ public class Questao03 {
             valor2 = sc.nextDouble();
             valor3 = sc.nextDouble();
             double r = (valor1 * 2 + valor2 * 3 + valor3 * 5) / 10;
-            System.out.printf("%.1f\n", r);
+            System.out.printf("%.1f", r);
         }
         sc.close();
     }
