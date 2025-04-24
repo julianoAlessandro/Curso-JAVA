@@ -8,7 +8,7 @@ public class Estudantes {
     public double nota3;
     double media;
     public double notafinal(){
-             return media;
+             return nota1 + nota2 + nota3;
     }
     public String situacao(){
         if ( media > 70.0){
