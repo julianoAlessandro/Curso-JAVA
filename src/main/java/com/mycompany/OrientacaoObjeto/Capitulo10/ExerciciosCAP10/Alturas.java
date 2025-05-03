@@ -12,8 +12,9 @@ public class Alturas {
         double media = 0;
         int contador = 0;
         Pessoas[] ListaPessoas = new Pessoas[n];
-        for(int i=1; i< ListaPessoas.length; i++){
-            System.out.println("Dados da " + i   + " pessoa");
+        for(int i=0; i< ListaPessoas.length; i++){
+            int v = i + 1;
+            System.out.println("Dados da " + v   + " pessoa");
             System.out.print("Nome: ");
             String nome = sc.next();
             System.out.print("Idade: ");
@@ -22,20 +23,26 @@ public class Alturas {
             double altura = sc.nextDouble();
             ListaPessoas[i] = new Pessoas(nome,idade,altura);
         }
-        for(int i = 1; i < ListaPessoas.length; i++){
+        for(int i = 0; i < ListaPessoas.length; i++){
             soma = soma  + ListaPessoas[i].getAltura();
             
         }
         media = soma / ListaPessoas.length;
-        System.out.printf("Altura Media: %.2f ", media );
-        for(int i = 1; i < ListaPessoas.length; i++){
+        for(int i = 0; i < ListaPessoas.length; i++){
             if(ListaPessoas[i].getIdade() < 16){
               System.out.println(ListaPessoas[i].getNome());
               contador = contador + 1;
+           
+              
             }
             
         }
-        System.out.println("Pessoas com menos de 16 anos: " + n/contador * 100 + " % ");
+        System.out.printf("Altura Media: %.2f ", media );
+        System.out.println(" ");
+        double porcento = (contador * 100)/ListaPessoas.length;
+        System.out.printf("Pessoas com menos de 16 anos: %.1f ",porcento,"%");
+        
+       
         
         
     }
