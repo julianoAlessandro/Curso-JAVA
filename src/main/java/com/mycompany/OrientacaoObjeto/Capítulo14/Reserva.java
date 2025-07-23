@@ -4,6 +4,7 @@
  */
 package com.mycompany.OrientacaoObjeto.Capítulo14;
 
+import com.mycompany.OrientacaoObjeto.Capítulo14.Exception.DomainException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -21,6 +22,9 @@ public class Reserva {
 
     public Reserva(int numeroQuarto, Date dataEntrada, Date dataSaida) {
         this.numeroQuarto = numeroQuarto;
+        if (!dataSaida.after(dataEntrada)) {
+            throw new DomainException("Erro: a data de entrada deve ser anterior à data de saída.");
+        }
         this.dataEntrada = dataEntrada;
         this.dataSaida = dataSaida;
     }
@@ -48,19 +52,19 @@ public class Reserva {
 
     }
 
-    public String atualizarData(Date dataSaida, Date dataEntrada) {
+    public void atualizarData(Date dataEntrada, Date dataSaida) {
         Date now = new Date();
-        if (dataSaida.before(now) || dataEntrada.before(now)) {
-            return"Erro de atualização: as datas para atualização devem ser datas futuras";
+
+        if (dataEntrada.before(now) || dataSaida.before(now)) {
+            throw new DomainException("Erro de atualização: as datas devem ser futuras.");
         }
+
         if (!dataSaida.after(dataEntrada)) {
-            return "Erro: a data de entrada deve ser anterior à data de saída.";
-
+            throw new DomainException("Erro: a data de entrada deve ser anterior à data de saída.");
         }
-        this.dataSaida = dataSaida;
-        this.dataEntrada = dataEntrada;
-        return null;
 
+        this.dataEntrada = dataEntrada;
+        this.dataSaida = dataSaida;
     }
 
     @Override
