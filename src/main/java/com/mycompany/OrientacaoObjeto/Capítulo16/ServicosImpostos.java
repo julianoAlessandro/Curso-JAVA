@@ -4,15 +4,11 @@
  */
 package com.mycompany.OrientacaoObjeto.Capítulo16;
 
-public class BrasilTaxaServico implements ServicosImpostos {
-
-    public double imposto(double valor) {
-        if(valor <= 100){
-            return valor * 0.2;
-        }
-        else{
-            return valor * 0.15;
-        }
-
-    }
+/**
+ *
+ * @author Juliano
+ */
+public interface ServicosImpostos {
+    double imposto(double valor);
+    
 }

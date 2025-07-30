@@ -13,11 +13,11 @@ import java.time.Duration;
 public class ServicoAluguel {
     private double precoPorHora;
     private double precoPorDia;
-    private BrasilTaxaServico imposto;
+    private ServicosImpostos imposto;
     
    
 
-    public ServicoAluguel(double precoPorHora, double precoPorMes, BrasilTaxaServico imposto) {
+    public ServicoAluguel(double precoPorHora, double precoPorMes, ServicosImpostos imposto) {
         this.precoPorHora = precoPorHora;
         this.precoPorDia = precoPorMes;
         this.imposto = imposto;
