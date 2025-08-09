@@ -13,7 +13,7 @@ import java.time.Duration;
 public class ServicoAluguel {
     private double precoPorHora;
     private double precoPorDia;
-    private ServicosImpostos imposto;
+    private ServicosImpostos imposto; // uma interface um tipo generico que só ganha um valor especifico no momento da instanciação
     
    
 
@@ -39,11 +39,11 @@ public class ServicoAluguel {
         this.precoPorDia = precoPorMes;
     }
 
-    public BrasilTaxaServico getImposto() {
+    public ServicosImpostos getImposto() {
         return imposto;
     }
 
-    public void setImposto(BrasilTaxaServico imposto) {
+    public void setImposto(ServicosImpostos imposto) {
         this.imposto = imposto;
     }
     

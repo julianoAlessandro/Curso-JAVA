@@ -24,15 +24,19 @@ com\mycompany\OrientacaoObjeto\Capítulo12\NiveisTrabalho.class
 com\mycompany\OrientacaoObjeto\Capitulo10\ExerciciosCAP10\Abaixo_Media.class
 com\mycompany\OrientacaoObjeto\Capítulo16\main02.class
 com\mycompany\OrientacaoObjeto\Capítulo13\ExercicioResolvido\main.class
+com\mycompany\OrientacaoObjeto\Capítulo16\ExercicioFixacao\PagamentoPayPal.class
 com\mycompany\OrientacaoObjeto\Capitulo10\Matrizes.class
 com\mycompany\OrientacaoObjeto\Capítulo13\ExercicioResolvido\FuncionarioTercerizado.class
 com\mycompany\Exercicios\QuestoesCondicionais\Questao06.class
+com\mycompany\OrientacaoObjeto\Capítulo16\ExercicioFixacao\Parcelamento.class
 com\mycompany\OrientacaoObjeto\Capitulo10\ExerciciosCAP10\Main03.class
 com\mycompany\OrientacaoObjeto\Capítulo09\Main.class
 com\mycompany\Exercicios\ExerciciosFOR\Questao05.class
+com\mycompany\OrientacaoObjeto\Capítulo17\main.class
 com\mycompany\OrientacaoObjeto\Capítulo13\ContaComercial.class
 com\mycompany\OrientacaoObjeto\Capítulo08\Main.class
 com\mycompany\OrientacaoObjeto\Capítulo14\ExercicioFIXACAOcap14\main.class
+com\mycompany\OrientacaoObjeto\Capítulo17\PrintService.class
 com\mycompany\Exercicios\Questao04.class
 com\mycompany\OrientacaoObjeto\Capítulo14\mainChamadoMetodo.class
 com\mycompany\OrientacaoObjeto\Capítulo12\Departamentos.class
@@ -57,9 +61,12 @@ com\mycompany\OrientacaoObjeto\Capítulo12\StatusPedido.class
 com\mycompany\OrientacaoObjeto\Capitulo10\ExerciciosCAP10\Alturas.class
 com\mycompany\OrientacaoObjeto\Capítulo12\Comentario.class
 com\mycompany\OrientacaoObjeto\Capítulo12\Post.class
+com\mycompany\OrientacaoObjeto\Capítulo16\ExercicioFixacao\MeiosPagamentoOnline.class
 com\mycompany\cursojava\EntradaDados.class
 com\mycompany\OrientacaoObjeto\Capítulo12\ContratosPorHora.class
+com\mycompany\OrientacaoObjeto\Capítulo16\ExercicioFixacao\mainTeste.class
 com\mycompany\OrientacaoObjeto\Capítulo12\ExercicioFIXACAO\Cliente.class
+com\mycompany\OrientacaoObjeto\Capítulo16\ServicosImpostos.class
 com\mycompany\OrientacaoObjeto\Capítulo16\Veiculo.class
 com\mycompany\OrientacaoObjeto\Capitulo10\ExerciciosCAP10\Soma_Vetores.class
 com\mycompany\OrientacaoObjeto\Capítulo14\main.class
@@ -72,6 +79,7 @@ com\mycompany\OrientacaoObjeto\Capítulo12\ExercicioFIXACAO\Main.class
 com\mycompany\OrientacaoObjeto\Capítulo13\ExercicioFixacaoAbstracao\main.class
 com\mycompany\Exercicios\locale.class
 com\mycompany\OrientacaoObjeto\Capítulo12\Trabalho.class
+com\mycompany\OrientacaoObjeto\Capítulo16\ExercicioFixacao\main.class
 com\mycompany\OrientacaoObjeto\Capítulo09\Produtos.class
 com\mycompany\OrientacaoObjeto\Capítulo14\ExercicioFIXACAOcap14\Conta.class
 com\mycompany\Exercicios\QuestoesCondicionais\Questao01.class
@@ -89,6 +97,7 @@ com\mycompany\OrientacaoObjeto\Capítulo09\ExerciciosCAP09\Main02.class
 com\mycompany\Exercicios\QuestoesCondicionais\Questao03.class
 com\mycompany\OrientacaoObjeto\Capitulo10\Vetores.class
 com\mycompany\OrientacaoObjeto\Capítulo08\ExerciciosCAP08\main02.class
+com\mycompany\OrientacaoObjeto\Capítulo16\ExercicioFixacao\ServicoContrato.class
 com\mycompany\Exercicios\ExerciciosWHILE\Questao03.class
 com\mycompany\Exercicios\Questao01.class
 com\mycompany\OrientacaoObjeto\Capítulo13\ExercicioFixacaoPolimorfismo\ProdutoUsado.class
@@ -97,6 +106,7 @@ com\mycompany\OrientacaoObjeto\Capítulo08\ExerciciosCAP08\Conversao.class
 com\mycompany\OrientacaoObjeto\Capítulo12\ExercicioFIXACAO\ItemPedido.class
 com\mycompany\OrientacaoObjeto\Capítulo08\ExerciciosCAP08\Main.class
 com\mycompany\cursojava\EstruturaWhile.class
+com\mycompany\OrientacaoObjeto\Capítulo16\ExercicioFixacao\Contratos.class
 com\mycompany\OrientacaoObjeto\Capítulo13\ExercicioFixacaoPolimorfismo\main.class
 com\mycompany\Exercicios\QuestoesCondicionais\Questao02.class
 com\mycompany\OrientacaoObjeto\Capítulo13\ExercicioFixacaoPolimorfismo\ProdutoImportado.class
